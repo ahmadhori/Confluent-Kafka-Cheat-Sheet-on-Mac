@@ -7,10 +7,10 @@ I will use **Confluent Kafka Binaries** to create topics, produce messages, and 
 `~/confluent-7.0.1`
 - Add the following to the `~/.bash_profile` or `~/.zshrc` file depending on your default shell.
 
-```bash
-export CONFLUENT_HOME=~/confluent-7.0.1  
-export PATH=$CONFLUENT_HOME/bin:$PATH
-```
+    ```bash
+    export CONFLUENT_HOME=~/confluent-7.0.1  
+    export PATH=$CONFLUENT_HOME/bin:$PATH
+    ```
 
 Now you are ready to start using kafka.
 
